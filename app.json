@@ -1,5 +1,5 @@
 {
-  "name": "Slack to Hipchat Notifications Webook",
+  "name": "Slack2Hipchat Notifications",
   "description": "A service to notificate an hipchat room from a slack webook",
   "env": {
     "AUTH_TOKEN": {
