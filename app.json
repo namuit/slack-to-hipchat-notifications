@@ -1,0 +1,22 @@
+{
+  "name": "Slack to Hipchat Notifications Webook",
+  "description": "A service to notificate an hipchat room from a slack webook",
+  "env": {
+    "AUTH_TOKEN": {
+            "description": "Auth token",
+            "generator": "secret"
+    },
+    "NOTIFICATION_COLOR": {
+            "description": "Background color for message. Valid values: yellow, green, red, purple, gray, random",
+            "value": "purple"
+    },
+    "NOTIFICATION_NOTIFY": {
+            "description": "Whether a message should trigger a user notification. Valid values: true, false",
+            "value": "false"
+    },
+    "NOTIFICATION_USERNAME": {
+            "description": "name for which the message will be presented as from",
+            "value": "Bot"
+    }
+  }
+}
